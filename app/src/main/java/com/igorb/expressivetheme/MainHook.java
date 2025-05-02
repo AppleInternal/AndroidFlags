@@ -11,17 +11,12 @@ import de.robv.android.xposed.callbacks.XC_LoadPackage.LoadPackageParam;
 
 public class MainHook implements IXposedHookLoadPackage {
 
-    private static final String TAG = "ExpressiveDesignEnabler"; // Tag for logging
+    private static final String TAG = "DroidfoodQS"; // Tag for logging
     private static final String TARGET_CLASS = "com.android.settingslib.widget.theme.flags.FeatureFlagsImpl";
-    private static final String TARGET_FIELD = "isExpressiveDesignEnabled";
+    private static final String TARGET_FIELD = "qs_ui_refactor";
 
     private static final Set<String> RECOMMENDED_TARGETS = new HashSet<>(Arrays.asList(
-            "com.android.settings",
-            "com.google.android.permissioncontroller",
-            "com.google.android.healthconnect.controller",
             "com.android.systemui",
-            "com.google.android.repairmode",
-            "com.android.devicediagnostics"
     ));
 
     @Override
