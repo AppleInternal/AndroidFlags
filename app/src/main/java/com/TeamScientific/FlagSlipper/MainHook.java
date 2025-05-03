@@ -1,4 +1,4 @@
-package com.igorb.expressivetheme;
+package com.TeamScientific.FlagSlipper;
 
 import java.util.Arrays;
 import java.util.HashSet;

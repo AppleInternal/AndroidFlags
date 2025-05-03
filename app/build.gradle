@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.igorb.expressivetheme'
+    namespace 'com.TeamScientific.FlagSlipper'
     compileSdk 35
 
     defaultConfig {
-        applicationId "com.igorb.expressivetheme"
+        applicationId "com.TeamScientific.FlagSlipper"
         minSdk 35
         targetSdkVersion '36'
         versionCode 1

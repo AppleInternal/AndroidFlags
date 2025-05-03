@@ -21,5 +21,5 @@ dependencyResolutionManagement {
         maven { url 'https://api.xposed.info/' }
     }
 }
-rootProject.name = "Material 3 Expressive Theme"
+rootProject.name = "FlagSlipper"
 include ':app'

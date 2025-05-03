@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="xposed_scope">
-        <item>com.android.settings</item>
-        <item>com.google.android.permissioncontroller</item>
-        <item>com.android.permissioncontroller</item>
-        <item>com.google.android.healthconnect.controller</item>
         <item>com.android.systemui</item>
-        <item>com.google.android.repairmode</item>
-        <item>com.android.devicediagnostics</item>
     </string-array>
 </resources>
