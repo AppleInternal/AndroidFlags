@@ -12,7 +12,7 @@ import de.robv.android.xposed.callbacks.XC_LoadPackage.LoadPackageParam;
 public class MainHook implements IXposedHookLoadPackage {
 
     private static final String TAG = "DroidfoodQS"; // Tag for logging
-    private static final String TARGET_CLASS = "com.android.systemui.Flags";
+    private static final String TARGET_CLASS = "com.android.systemui.FeatureFlagsImpl";
     private static final String TARGET_FIELD = "qsUiRefactor";
 
     private static final Set<String> RECOMMENDED_TARGETS = new HashSet<>(Arrays.asList(
