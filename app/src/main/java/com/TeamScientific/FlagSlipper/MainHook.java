@@ -16,7 +16,7 @@ public class MainHook implements IXposedHookLoadPackage {
     private static final String TARGET_FIELD = "qsUiRefactor";
 
     private static final Set<String> RECOMMENDED_TARGETS = new HashSet<>(Arrays.asList(
-            "com.android.systemui",
+            "com.android.systemui"
     ));
 
     @Override
